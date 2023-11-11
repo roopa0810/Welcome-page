@@ -1,0 +1,102 @@
+.welcome{
+    background:#FFF;
+    color:black;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:100%;
+    color:#000000;
+}
+.welcome .div{
+    width:393px;
+    height:852px;
+    position:relative;
+    overflow:hidden;
+}
+.welcome .header{
+    top:17px;
+    height:44px;
+    width:396px;
+    position:relative;
+}
+.welcome .header .top-left{
+    position:absolute;
+    height:11px;
+    left:33px;
+}
+.welcome .header .top-right{
+    position:absolute;
+    height:11px;
+    left:315px;
+}
+.welcome .label{
+    height:79px;
+    width:243px;
+}
+.welcome .div .label .text{
+  font-family: "Poppins-ExtraBold", Helvetica;
+  font-size: 42px;
+  font-weight: 800;
+  left:75px;
+  position: absolute;
+  text-align: center;
+  top: 108px;
+  width: 243px;
+}
+.welcome .div .stuimg{
+    position:absolute;
+    top:241px;
+    height:124px;
+    width:124px;
+    left:134px;
+}
+.welcome .div .label1{
+    width:177px;
+    position:absolute;
+    left:108px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size:28px;
+    font-weight:700px;
+    text-align:center;
+    top:531px;
+
+}
+.welcome .div .text1{
+    left:29px;
+    top:588px;
+    text-align:center;
+    position:absolute;
+    width:334px;
+    font-size:20px;
+    font-weight:300px;
+    font-family:"Poppins-light","Helvetica";
+}
+.welcome .frame{
+    top:708px;
+    width:170px;
+    left:115px;
+    position:absolute;
+    height:39px;
+}
+.welcome .frame .frame-content{
+background-color: #5be7a90a;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 15px;
+  height: 43px;
+  left: -2px;
+  overflow: hidden;
+  position: relative;
+  top: -2px;
+  width: 174px;
+}
+.welcome .frame .frame-content .text-content{
+    font-size:20px;
+    font-family:"Poppins-SemiBold","Helvetica";
+    font-weight:600px;
+    position:absolute;
+    text-align:center;
+    top:6px;
+    width:213px;
+    left:-21px;
+}
